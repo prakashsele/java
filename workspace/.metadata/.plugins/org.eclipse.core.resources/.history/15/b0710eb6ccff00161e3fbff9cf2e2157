@@ -1,0 +1,21 @@
+package allprograms;
+//When we know number of rows but not coloumns || when we know number of coloumns o=but not rows
+public class JaggedArray {
+
+	public static void main(String[] args) {
+		int p[][] = new int[3][];
+		p[0] = new int[4];
+		p[1] = new int[2];
+		p[2] = new int[5];
+		
+		for(int i[] : p);
+		{
+			for(int j : i);
+			{
+				System.out.println(j);
+			}
+		}
+
+	}
+
+}

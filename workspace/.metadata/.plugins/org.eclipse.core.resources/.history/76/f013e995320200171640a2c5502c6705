@@ -1,0 +1,33 @@
+package constructor;
+
+public class Default {
+	
+	int a=20; // Instance variable
+	int b=30;
+	static int c=40; // Static variable
+	
+	void m1()
+	{
+		/*int a=50;  // Local variable
+		System.out.println(this.a);
+		System.out.println(b);
+		System.out.println(c);
+		//System.out.println(d);
+*/
+		
+	}
+	Default()
+	{
+		int a=20;
+		int b=30;
+		System.out.println(a+b);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		new Default();
+	}
+
+}
+

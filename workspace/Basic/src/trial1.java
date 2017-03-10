@@ -1,0 +1,13 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class trial1 {
+	public static void main(String[] args) throws InterruptedException{
+		System.out.println("Hello");
+		//System.setProperty("webdriver.gecko.driver","\\Users\\omprakash\\Downloads");
+		WebDriver d = new FirefoxDriver(); 
+		d.get("www.google.com");
+		Thread.sleep(5000);
+		d.quit();
+	}
+}

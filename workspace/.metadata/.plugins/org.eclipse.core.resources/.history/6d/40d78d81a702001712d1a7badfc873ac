@@ -1,0 +1,34 @@
+ package oopsConcepts;
+
+public class InheritanceSingleLevel {
+
+	public static void main(String[] args) {
+		Addsub obj = new Addsub();
+		obj.num1= 5;
+		obj.num2=3;
+		obj.sum();
+		System.out.println(obj.result);
+		obj.sub();
+		System.out.println(obj.result);
+	}
+
+}
+class Add
+{
+	int num1, num2, result;
+	public void sum()
+	{
+		result = num1+ num2;
+	}
+}
+
+class Addsub extends Add
+{
+	int num1,num2,result;
+	
+	
+	public void sub()
+	{
+		result = num1 - num2;
+	}
+}

@@ -1,0 +1,44 @@
+package oopsConcepts;
+
+public class AbstractClass {
+
+	public static void main(String[] args)
+	{
+		Omphone obj = new Sureshphone();
+		obj.call();
+		obj.move();
+		obj.dance();
+		obj.cook();
+		
+	}
+
+}
+
+abstract class Omphone //Abstract
+{
+	public void call()
+	{
+		System.out.println("calling....");
+	}
+	public abstract void move();
+	public abstract void dance();
+	public abstract void cook();
+	
+}
+
+class Sureshphone extends Omphone // concrete
+{
+	public void move()
+	{
+		System.out.println("Moving...");
+	}
+	public void dance()
+	{
+		System.out.println("Dancing...");
+	}
+	public void cook()
+	{
+		System.out.println("Cooking...");
+	}
+	
+}

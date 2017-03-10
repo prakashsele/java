@@ -1,0 +1,17 @@
+package oopsConcepts;
+
+public class AbstractClass1 {
+	public static void main (String[] args)
+	{
+		Omphone obj = new Omphone();
+		obj.call();
+	}
+	class Omphone
+	{
+		public void call()
+		{
+			System.out.println("Calling...");
+		}
+	}
+
+}

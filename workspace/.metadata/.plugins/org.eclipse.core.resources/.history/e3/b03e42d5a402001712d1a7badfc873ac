@@ -1,0 +1,9 @@
+ package oopsConcepts;
+
+public class InheritanceSingleLevel {
+
+	public static void main(String[] args) {
+
+	}
+
+}
